@@ -1,0 +1,25 @@
+# Python & Sanal Ortamlar
+myenv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Veri Seti ve İşlenmiş Veriler (Büyük boyutlu dosyalar)
+wcs_cameratrap_data/
+processed_data/
+
+# Model Ağırlıkları ve Çıktılar
+*.pt
+*.pth
+runs/
+test_cikti/
+
+# Sistem ve Editör Dosyaları
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
