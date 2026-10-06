@@ -51,6 +51,8 @@ python test_model.py /path/to/gorseller_klasoru/
 ## 📂 Proje Yapısı
 
 - **`weights/best.pt`**: Fotokapan veri seti ile eğitilmiş en yüksek doğruluklu YOLOv8 model ağırlığı (~6 MB).
+- **`weights/last.pt`**: Eğitimin son turundaki (epoch) YOLOv8 model ağırlığı (~6 MB).
+- **`runs/detect/wcs_projesi/`**: Modelin eğitim metrikleri, kayıp grafikleri (loss curves), karmaşıklık matrisi (confusion matrix), doğrulama tahminleri ve deney konfigürasyonları.
 - **`sample_images/`**: Modeli hızlıca denemek için eklenmiş örnek fotokapan görselleri.
 - **`test_model.py`**: Model çıkarımı ve nesne tespiti yapan ana test betiği.
 - **`train.py`**: YOLOv8 modelini MPS (Apple Silicon GPU) veya CUDA ile eğiten betik.

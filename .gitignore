@@ -11,15 +11,19 @@ __pycache__/
 wcs_cameratrap_data/
 processed_data/
 
-# Model Ağırlıkları ve Çıktılar
-*.pt
-!weights/best.pt
-*.pth
-runs/
+# Test ve Çıkarım Görsel Çıktıları (Büyük boyutlu görseller)
+runs/detect/test_cikti/
 test_cikti/
+
+# Model Ağırlıkları İstisnaları
+*.pt
+!weights/*.pt
+!runs/detect/wcs_projesi/**/*.pt
+*.pth
 
 # Sistem ve Editör Dosyaları
 .DS_Store
+**/.DS_Store
 .vscode/
 .idea/
 *.swp
