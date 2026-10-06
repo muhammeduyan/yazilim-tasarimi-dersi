@@ -7,12 +7,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Veri Seti ve İşlenmiş Veriler (Büyük boyutlu dosyalar)
+# Veri Seti ve İşlenmiş Veriler (15 GB - GitHub'a yüklenmez)
 wcs_cameratrap_data/
 processed_data/
 
 # Model Ağırlıkları ve Çıktılar
 *.pt
+!weights/best.pt
 *.pth
 runs/
 test_cikti/
